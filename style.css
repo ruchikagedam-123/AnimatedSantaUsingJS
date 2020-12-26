@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    overflow-y: hidden;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);}
+.night{
+    height: 80vh;
+    width: 70vw;
+    margin: 5rem auto;
+    background-size: cover;
+    position: relative;
+    box-shadow: 1px 2px 60px #160505;
+    background: url('./assets/Img_1.png');
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.surface{
+    height: 140px;
+    width: 500%;
+    background: url('./assets/Img_02.png');
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-repeat: repeat-x;
+}
+.car
+{
+    position: absolute;
+    bottom: 0%;
+    left: 24%;
+}
+
+/*Animation*/
+@keyframes moveRight{
+    0%{transform:translate(-2950px)}
+}
+
+.startJourney{
+    animation: moveRight 10s linear infinite;
+}
+
+.getGift{
+    
+}
